@@ -362,6 +362,8 @@ def run_download(url, base_url, base_name):
 def usage():
     print 'This tools is used to download one page from the online web site to your local host.It will download the page struct ,js,css And images.And powered by walkskyer ^_^'
     print "usage:"
+    print "-u --url: target url"
+    print "-t --target-name: save the page as target name"
     sys.exit()
 
 if __name__ == "__main__":
